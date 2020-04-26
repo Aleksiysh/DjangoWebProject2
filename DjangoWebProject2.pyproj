@@ -43,6 +43,13 @@
     <Compile Include="DjangoWebProject2\settings.py" />
     <Compile Include="DjangoWebProject2\urls.py" />
     <Compile Include="DjangoWebProject2\wsgi.py" />
+    <Compile Include="testDjango\admin.py" />
+    <Compile Include="testDjango\apps.py" />
+    <Compile Include="testDjango\migrations\__init__.py" />
+    <Compile Include="testDjango\models.py" />
+    <Compile Include="testDjango\tests.py" />
+    <Compile Include="testDjango\views.py" />
+    <Compile Include="testDjango\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\" />
@@ -55,6 +62,10 @@
     <Folder Include="app\templates\" />
     <Folder Include="app\templates\app\" />
     <Folder Include="DjangoWebProject2\" />
+    <Folder Include="testDjango\" />
+    <Folder Include="testDjango\migrations\" />
+    <Folder Include="testDjango\templates\" />
+    <Folder Include="testDjango\templates\testDjango\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
@@ -87,6 +98,7 @@
     <Content Include="app\templates\app\layout.html" />
     <Content Include="app\templates\app\login.html" />
     <Content Include="app\templates\app\loginpartial.html" />
+    <Content Include="testDjango\templates\testDjango\index.html" />
   </ItemGroup>
   <ItemGroup>
     <None Include="readme.html">
